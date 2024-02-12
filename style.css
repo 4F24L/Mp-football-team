@@ -30,7 +30,7 @@
     width: 100%;
     grid-template-rows: repeat(6,1fr);
     /* border: 10px solid black; */
-    height: 100vh;
+    height: 100%;
 
     
 }
