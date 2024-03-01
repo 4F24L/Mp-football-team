@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MPNSFA</title>
+    <title>Football 11</title>
 
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,43 +20,399 @@
             <!-- striker div  -->
             <div class="box flex">
                 <div class="striker">
-                    <a href="striker/index.html"><img class="icon" src="/pngs/firoj.png" ></a>
+                    <label for="firoj"><img class="icon" src="/pngs/firoj.png" ></label>
                 </div>
             </div>
             <!-- winger div -->
             <div class="box flex">
-                <a href="wingers/left winger - asif/index.html"><div class="winger l-winger">
-                    <img class="icon" src="/pngs/asif.png">
-                </div></a>
+                <div class="winger l-winger">
+                    <label for="asif"><img class="icon" src="/pngs/asif.png"></label>
+                </div>
 
-                <a href="mid-fielders/atck-mdf/index.html"><div class="atck-mdf"><img class="icon" src="/pngs/saharul.png"></div></a>
+                <div class="atck-mdf">
+                    <label for="saharul"><img class="icon" src="/pngs/saharul.png"></label>
+                </div>
 
-                <div class="winger"><a href="wingers/right winger - irfan/irfan.html"><img class="icon" src="/pngs/irfan.png"></a></div>
+                <!-- irfan card icon  -->
+                <div class="winger"><label for="irfan"><img class="icon" src="/pngs/irfan.png"></label></div>
             </div>
             <!-- midfielder div  -->
             <div class="box flex">
-                <a href="mid-fielders/raja/index.html"><div class="mdf"><img class="icon" src="/pngs/raja.png"></div></a>
+                <div class="mdf"><label for="sahanaj"><img class="icon" src="/pngs/sahanaj.png"></label></div>
 
                 <!-- need to change  -->
-                <a href="mid-fielders/obai/index.html"><div class="mdf"><img class="icon" src="/pngs/obai.png"></div></a>
+                <div class="mdf"><label for="obai"><img class="icon" src="/pngs/obai.png"></label></div>
             </div>
             <!-- defence div  -->
             <div class="box flex">
-                <a href="defenders/mubassir/index.html"><div class="defence"><img class="icon" src="/pngs/mubassir.png"></div></a>
+                <div class="defence"><label for="mubassir"><img class="icon" src="/pngs/mubassir.png"></label></div>
 
                 <!-- need to change  -->
-                <a href="defenders/imran/index.html"><div class="defence"><img class="icon" src="/pngs/imran.png"></div></a>
+                <div class="defence"><label for="imran"><img class="icon" src="/pngs/imran.png"></label></div>
 
-                <a href="defenders/babu/index.html"><div class="defence"><img class="icon" src="/pngs/babu.png"></div></a>
+                <div class="defence"><label for="azizul"><img class="icon" src="/pngs/babu.png"></label></div>
                 
-                <a href="defenders/rzwn/index.html"><div class="defence"><img class="icon" src="/pngs/rejuwan.png"></div></a>
+                <div class="defence"><label for="rejuwan"><img class="icon" src="/pngs/rejuwan.png"></label></div>
             </div>
             <!-- goalkeeper div  -->
-            <div class="box flex">
-                <a href="goal-keeper/index.html"><div class="gk"><img class="icon" src="/pngs/sahin.png"></div></a>
+            <div class="box flex ft-sec">
+                <div class="gk"><label for="sahin"><img class="icon" src="/pngs/sahin.png"></label></div>
+
+                <!-- <div class="ft"><marquee>Developed By <a href="https://www.instagram.com/afzalmir.ig">Md Afzal</a></marquee></div> -->
             </div>
         </div>
         
+        <!-- coach section  -->
+        <!-- <span class="coach">
+            <a href="wingers/right winger - irfan/irfan.html"><img src="pngs/irfan.png" alt="coach" class="icon coach" title="Coach"></a>
+
+        
+        </span> -->
+
+        <!-- input section  -->
+        <input type="checkbox" name="card" id="irfan" hidden>
+        <input type="checkbox" name="card" id="firoj" hidden>
+        <input type="checkbox" name="card" id="asif" hidden>
+        <input type="checkbox" name="card" id="saharul" hidden>
+        <input type="checkbox" name="card" id="sahanaj" hidden>
+        <input type="checkbox" name="card" id="obai" hidden>
+        <input type="checkbox" name="card" id="mubassir" hidden>
+        <input type="checkbox" name="card" id="imran" hidden>
+        <input type="checkbox" name="card" id="azizul" hidden>
+        <input type="checkbox" name="card" id="rejuwan" hidden>
+        <input type="checkbox" name="card" id="sahin" hidden>
+
+        <!-- card section  -->
+
+        <div class="card card-vis irfan">
+
+            <div class="image">
+                <img src="/images/irfan.jpg" class="profile-image" alt="">
+            </div>
+
+            <div class="hd-text">
+                <h2 class="name">Irfan Mir</h2>
+                <div class="info">
+                    <div>Footballer</div>
+                    <div>Position : R. Winger</div>
+                </div>
+            </div>
+
+            <!-- icon starts here -->
+            <div class="icons">
+                <div class="social1">
+                    <a href="https://www.facebook.com/profile.php?id=100033870713553&mibextid=2JQ9oc" class="link">
+                        <i class="ri-facebook-fill fbcon"></i></a>
+                </div>
+                
+                <div class="social2"><a href="https://instagram.com/irfanmir.its7" class="link">
+                    <i class="ri-instagram-line inscon"></i></a>
+                </div>
+                
+            </div>
+
+            <div class="close"><label for="irfan">Close</label></div>
+        </div>
+
+        <div class="card card-vis firoj">
+
+            <div class="image">
+                <img src="/images/firoj.jpg" class="profile-image" alt="">
+            </div>
+
+            <div class="hd-text">
+                <h2 class="name">firoz molla</h2>
+                <div class="info">
+                    <div>Footballer</div>
+                    <div>Position : Striker</div>
+                </div>
+            </div>
+
+            <!-- icon starts here -->
+            <div class="icons">
+                <div class="social1">
+                    <a href="#" class="link">
+                        <i class="ri-facebook-fill fbcon"></i></a>
+                </div>
+                
+                <div class="social2"><a href="#" class="link">
+                    <i class="ri-instagram-line inscon"></i></a>
+                </div>
+                
+            </div>
+
+            <div class="close"><label for="firoj">Close</label></div>
+        </div>
+
+        <div class="card card-vis asif">
+
+            <div class="image">
+                <img src="/images/asif.jpg" class="profile-image" alt="">
+            </div>
+
+            <div class="hd-text">
+                <h2 class="name">Asif halder</h2>
+                <div class="info">
+                    <div>Footballer</div>
+                    <div>Position : L. Winger</div>
+                </div>
+            </div>
+
+            <!-- icon starts here -->
+            <div class="icons">
+                <div class="social1">
+                    <a href="https://www.facebook.com/profile.php?id=61553349157991&mibextid=2JQ9oc" class="link">
+                        <i class="ri-facebook-fill fbcon"></i></a>
+                </div>
+                
+                <div class="social2"><a href="https://instagram.com/jaamaaitomaarmaaraadorer" class="link">
+                    <i class="ri-instagram-line inscon"></i></a>
+                </div>
+                
+            </div>
+
+            <div class="close"><label for="asif">Close</label></div>
+        </div>
+
+        <div class="card card-vis saharul">
+
+            <div class="image">
+                <img src="/images/saharul.jpg" class="profile-image" alt="">
+            </div>
+
+            <div class="hd-text">
+                <h2 class="name">saharul halder</h2>
+                <div class="info">
+                    <div>Footballer</div>
+                    <div>Position : Attacking Midfielder</div>
+                </div>
+            </div>
+
+            <!-- icon starts here -->
+            <div class="icons">
+                <div class="social1">
+                    <a href="https://www.facebook.com/profile.php?id=100094670867953&mibextid=2JQ9oc" class="link">
+                        <i class="ri-facebook-fill fbcon"></i></a>
+                </div>
+                
+                <div class="social2"><a href="https://instagram.com/saharul2579" class="link">
+                    <i class="ri-instagram-line inscon"></i></a>
+                </div>
+                
+            </div>
+
+            <div class="close"><label for="saharul">Close</label></div>
+        </div>
+
+        <div class="card card-vis sahanaj">
+
+            <div class="image">
+                <img src="/images/sahanaj.jpg" class="profile-image" alt="">
+            </div>
+
+            <div class="hd-text">
+                <h2 class="name">sahanaj gazi</h2>
+                <div class="info">
+                    <div>Footballer</div>
+                    <div>Position : Midfielder</div>
+                </div>
+            </div>
+
+            <!-- icon starts here -->
+            <div class="icons">
+                <div class="social1">
+                    <a href="https://www.facebook.com/profile.php?id=61552594105361&mibextid=2JQ9oc" class="link">
+                        <i class="ri-facebook-fill fbcon"></i></a>
+                </div>
+                
+                <div class="social2"><a href="https://instagram.com/sahanaj4283" class="link">
+                    <i class="ri-instagram-line inscon"></i></a>
+                </div>
+                
+            </div>
+
+            <div class="close"><label for="sahanaj">Close</label></div>
+        </div>
+
+        <div class="card card-vis obai">
+
+            <div class="image">
+                <img src="/images/obai.jpg" class="profile-image" alt="">
+            </div>
+
+            <div class="hd-text">
+                <h2 class="name">obaidullah</h2>
+                <div class="info">
+                    <div>Footballer</div>
+                    <div>Position : Midfielder</div>
+                </div>
+            </div>
+
+            <!-- icon starts here -->
+            <div class="icons">
+                <div class="social1">
+                    <a href="#" class="link">
+                        <i class="ri-facebook-fill fbcon"></i></a>
+                </div>
+                
+                <div class="social2"><a href="#" class="link">
+                    <i class="ri-instagram-line inscon"></i></a>
+                </div>
+                
+            </div>
+
+            <div class="close"><label for="obai">Close</label></div>
+        </div>
+
+        <div class="card card-vis mubassir">
+
+            <div class="image">
+                <img src="/images/mubassir.jpg" class="profile-image" alt="">
+            </div>
+
+            <div class="hd-text">
+                <h2 class="name">Mubassir paik</h2>
+                <div class="info">
+                    <div>Footballer</div>
+                    <div>Position : Side defender</div>
+                </div>
+            </div>
+            <!-- icon starts here -->
+            <div class="icons">
+                <div class="social1">
+                    <a href="https://www.facebook.com/mr.bos.1401?mibextid=2JQ9oc" class="link">
+                        <i class="ri-facebook-fill fbcon"></i></a>
+                </div>
+                
+                <div class="social2"><a href="https://instagram.com/its.mubassir" class="link">
+                    <i class="ri-instagram-line inscon"></i></a>
+                </div>
+                
+            </div>
+
+            <div class="close"><label for="mubassir">Close</label></div>
+        </div>
+
+        <div class="card card-vis imran">
+
+            <div class="image">
+                <img src="/images/imran.jpg" class="profile-image" alt="">
+            </div>
+
+            <div class="hd-text">
+                <h2 class="name">imran khan</h2>
+                <div class="info">
+                    <div>Footballer</div>
+                    <div>Position : Defender</div>
+                </div>
+            </div>
+            <!-- icon starts here -->
+            <div class="icons">
+                <div class="social1">
+                    <a href="https://www.facebook.com/profile.php?id=100071166999985&mibextid=2JQ9oc" class="link">
+                        <i class="ri-facebook-fill fbcon"></i></a>
+                </div>
+                
+                <div class="social2"><a href="#" class="link">
+                    <i class="ri-instagram-line inscon"></i></a>
+                </div>
+                
+            </div>
+
+            <div class="close"><label for="imran">Close</label></div>
+        </div>
+
+        <div class="card card-vis azizul">
+
+            <div class="image">
+                <img src="/images/babu.jpg" class="profile-image" alt="">
+            </div>
+
+            <div class="hd-text">
+                <h2 class="name">azizul </h2>
+                <div class="info">
+                    <div>Footballer</div>
+                    <div>Position : Main Defender</div>
+                </div>
+            </div>
+
+            <!-- icon starts here -->
+            <div class="icons">
+                <div class="social1">
+                    <a href="https://www.facebook.com/profile.php?id=100079329326324&mibextid=2JQ9oc" class="link">
+                        <i class="ri-facebook-fill fbcon"></i></a>
+                </div>
+                
+                <div class="social2"><a href="https://instagram.com/azi_zul_123" class="link">
+                    <i class="ri-instagram-line inscon"></i></a>
+                </div>
+                
+            </div>
+
+            <div class="close"><label for="azizul">Close</label></div>
+        </div>
+
+        <div class="card card-vis rejuwan">
+
+            <div class="image">
+                <img src="/images/rezwan.jpg" class="profile-image" alt="">
+            </div>
+
+            <div class="hd-text">
+                <h2 class="name">rejuan laskar</h2>
+                <div class="info">
+                    <div>Footballer</div>
+                    <div>Position : Side Defender</div>
+                </div>
+            </div>
+
+            <!-- icon starts here -->
+            <div class="icons">
+                <div class="social1">
+                    <a href="https://www.facebook.com/profile.php?id=100055726625658&mibextid=2JQ9oc" class="link">
+                        <i class="ri-facebook-fill fbcon"></i></a>
+                </div>
+                
+                <div class="social2"><a href="https://instagram.com/rajuwan_008" class="link">
+                    <i class="ri-instagram-line inscon"></i></a>
+                </div>
+                
+            </div>
+
+            <div class="close"><label for="rejuwan">Close</label></div>
+        </div>
+
+        <div class="card card-vis sahin">
+
+            <div class="image">
+                <img src="/images/sahin_gk.jpg" class="profile-image" alt="">
+            </div>
+
+            <div class="hd-text">
+                <h2 class="name">Sahin shah</h2>
+                <div class="info">
+                    <div>Footballer</div>
+                    <div>Position : Goalkeeper</div>
+                </div>
+            </div>
+
+
+            <!-- icon starts here -->
+            <div class="icons">
+                <div class="social1">
+                    <a href="https://www.facebook.com/saikul.saha.5?mibextid=2JQ9oc" class="link">
+                        <i class="ri-facebook-fill fbcon"></i></a>
+                </div>
+                
+                <div class="social2"><a href="#" class="link">
+                    <i class="ri-instagram-line inscon"></i></a>
+                </div>
+                
+            </div>
+
+            <div class="close"><label for="sahin">Close</label></div>
+        </div>
+
     </div>
 </body>
 </html>
