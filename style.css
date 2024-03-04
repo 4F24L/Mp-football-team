@@ -159,6 +159,7 @@ marquee{
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: scale(0);
 
     flex-direction: column;
     background-color: #fff;
@@ -166,7 +167,22 @@ marquee{
     box-shadow: 0 0 5px #949494;
     border-radius: 25px;
     position: absolute;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
+}
+
+#irfan:checked ~ .irfan,
+#firoj:checked ~ .firoj,
+#asif:checked ~ .asif,
+#saharul:checked ~ .saharul,
+#sahanaj:checked ~ .sahanaj,
+#obai:checked ~ .obai,
+#mubassir:checked ~ .mubassir,
+#imran:checked ~ .imran,
+#azizul:checked ~ .azizul,
+#rejuwan:checked ~ .rejuwan,
+#sahin:checked ~ .sahin{
+    transform: scale(1);
+    transition: all 0.5s ease;
 }
 
 .image{
@@ -302,8 +318,7 @@ label{
 #imran:checked ~ .imran,
 #azizul:checked ~ .azizul,
 #rejuwan:checked ~ .rejuwan,
-#sahin:checked ~ .sahin,
-#irfan:checked ~ .irfan{
+#sahin:checked ~ .sahin{
     visibility: visible;
     transition: all 0.3s ease;
 }
