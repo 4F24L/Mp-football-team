@@ -56,9 +56,6 @@
 }
 
 /* grid boxes  */
-.box{
-    /* border: 1px solid red; */
-}
 
 /* for flex  */
 .flex{
@@ -109,12 +106,12 @@
 
     50%{
         transform: translate(-20px);
-        color: ##00a0ae;
+        color: #00a0ae;
     }
 
     100%{
         transform: translate(20px);
-        color: #00a0ae);
+        color: #00a0ae;
     }
 }
 
@@ -227,9 +224,7 @@ marquee{
     font-size: 2rem;
     text-transform: uppercase;
 }
-img{
-    
-}
+
 .hd-text .info{
     margin: 10px 0;
     font-size: 1.2rem;
